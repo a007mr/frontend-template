@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Basic form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Profile</h1>
 
+    <form action="https://echo.htmlacademy.ru" method="post" enctype="multipart/form-data">
+      
+      <label for="sex">I identify my gender as:
+        <input type="radio" name="sex" value="m"> Man
+      </label>
+      <label>
+        <input type="radio" checked name="sex" value="f"> Woman
+      </label><br>
+      
+      What is Your Date of Birth<br>
+      <select>
+        <option value="January">January</option>
+        </select>
+        <select>
+        <option value="1990">1990</option>
+        </select><br>
+        
+        Expert in:<br>
+        <select name="technology" size="4">
+          <option>HTML</option>
+          <option selected>CSS</option>
+          <option>JavaScript</option>
+          <option>Node.js</option>
+          </select><br>
+          
+          Photo: <input type="file" name="photo"><br>
+          <input type="submit" value="Upload">
+    </form>
+  </body>
+</html>
