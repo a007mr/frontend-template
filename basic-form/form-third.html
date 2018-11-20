@@ -1,81 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Испытание: через тернии к звёздам</title>
+    <title>HTML practise from HTML Academy</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="exam.css">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header class="page-header">Форма отзыва</header>
+    <header class="page-header">Feedback</header>
     <main>
       <form action="/echo" method="post" oninput="rating.value=rating.value">
         <fieldset name="personal-info">
-        <legend>Личные данные</legend>
+        <legend>Personal Information</legend>
         <div class="half-width">
-          <label for="id">ID отзыва</label>
+          <label for="id">ID</label>
           <input type="text" name="id" id="id" value="12345" disabled>
         </div>
         <div class="half-width">
-          <label for="name">Имя путешественника</label>
-          <input type="text" name="name" id="name" value="Кекс">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" value="Cake">
         </div>
         </fieldset>
         <fieldset name="trip-info">
-        <legend>Отзыв о поездке</legend>
+        <legend>Feedback about the trip</legend>
         <div class="half-width">
-          <label for="country">Страна визита</label>
-          <input type="text" name="country" id="country" value="Норвегия">
+          <label for="country">Country</label>
+          <input type="text" name="country" id="country" value="Norway">
         </div>
         <div class="half-width">
-          <label for="city">Город</label>
+          <label for="city">City</label>
           <select name="city" id="city">
-            <option value="Oslo">Осло</option>
+            <option value="Oslo">Oslo</option>
           </select>
         </div>
         <div class="half-width">
-        <label for="rating">Оценка поездки</label>
+        <label for="rating">Rating</label>
           0 <input type="range" name="rating" id="rating" min="0" max="10" step="1" value="10"> 10
         </div>
         <div class="half-width output-area">
           <output name="rating">10</output>
         </div>
-        <label for="review">Текст отзыва</label>
-        <textarea name="review" id="review" rows="5">Это было просто мяу!
+        <label for="review">Comment</label>
+        <textarea name="review" id="review" rows="5">It was amazing!
         </textarea>
         </fieldset>
         <fieldset name="feedback">
-        <legend>Оценка отеля</legend>
+        <legend>Hotel's review</legend>
         <div class="half-width">
-          <label for="hotel">Название отеля</label>
-          <input type="text" name="hotel" id="hotel" placeholder="Название по-английски">
+          <label for="hotel">Hotel</label>
+          <input type="text" name="hotel" id="hotel" placeholder="Hotel's Name">
         </div>
         <div class="half-width">
-          <label for="arrival_date">Дата въезда</label>
-          <input type="text" name="arrival_date" id="arrival_time" pattern="[0-9]{2}-[0-9]{2}-[0-9]{4}" placeholder="В формате дд-мм-гггг">
+          <label for="arrival_date">Arrival Date</label>
+          <input type="text" name="arrival_date" id="arrival_time" pattern="[0-9]{2}-[0-9]{2}-[0-9]{4}" placeholder="dd-mm-yyyy">
         </div>
         <div class="one-third-width">
-          <label for="color">Цвет кроватки</label>
+          <label for="color">Color</label>
           <input type="color" name="color" id="color" value="#ff0000">
         </div>
         <div class="two-third-width">
-          <label for="dish_rating">Оценка обедов</label>
+          <label for="dish_rating">Food</label>
           <select name="dish_rating">
-            <option value="Five">Подушечки оближешь</option>
+            <option value="Five">Delicious</option>
             </select>
         </div>
-        <label for="fish">Самая вкусная рыба</label>
+        <label for="fish">Best food</label>
         <select name="fish" multiple>
-          <option selected>Норвежский лосось</option>
-          <option>Зубатка</option>
-          <option selected>Морской окунь</option>
-          <option>Карась</option>
-          <option>Зеркальный карп</option>
+          <option selected>Norwegian Salmon</option>
+          <option>Catfish</option>
+          <option selected>Sea bass</option>
+          <option>Carp</option>
+          <option>Mirror carp</option>
           </select>
         </fieldset>
         <div class="buttons">
-          <input type="submit" value="Оценить">
-          <input type="reset" value="Сбросить">
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
         </div>
       </form>
     </main>
