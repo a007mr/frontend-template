@@ -1,0 +1,70 @@
+body {
+  width: 450px;
+  margin: 0;
+  padding: 10px;
+
+  font-size: 14px;
+  font-family: "Arial", sans-serif;
+}
+
+.logo,
+.contacts,
+.about-us,
+.main-menu,
+.footer {
+  padding: 10px 20px 10px 20px;
+
+  background-color: #f5f5f5;
+  border: 2px solid #cccccc;
+}
+
+/* Blocks styles */
+.header {
+  min-height: 40px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  background-color: #333333;
+  font-weight: bold;
+  color: #ffffff;
+  float: left;
+  width: 230px;
+
+  text-align: center;
+}
+
+.contacts {
+  background-color: #333333;
+  color: #ffffff;
+  font-style: italic;
+  float: right;
+  width: 110px;
+
+  text-align: center;
+}
+
+.about-us {
+  width: 230px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.about-us h1 {
+  font-size: 20px;
+}
+
+.about-us p {
+  font-size: 12px;
+}
+
+.main-menu {
+  width: 110px;
+  float: right;
+}
+
+.footer {
+  background-color: #333333;
+  color: #ffffff;
+  clear: both;
+}
