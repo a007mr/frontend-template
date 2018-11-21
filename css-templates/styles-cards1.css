@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  min-width: 550px;
+  min-height: 250px;
+  padding: 10px;
+}
+
+.cards {
+  width: 500px;
+}
+
+.cards li::before {
+  font-family: "Courier", monospace;
+}
+
+li:not(.nine):not(.six) {
+  margin-left: -15px;
+}
+
+.cards li:not(.nine) {
+  width: 36px;
+  height: 54px;
+}
+
+li.nine {
+  margin-right: 30px;
+  margin-left: 15px;
+}
+
+ul li.diamond:not(.nine):not(.king):not(.jack):not(.seven) {
+  background-color: #0099ff;
+}
+
+ul li:nth-child(3):not(.club) {
+  background-color: #ff3300;
+}
+
+ul:nth-last-of-type(1) li:nth-last-of-type(3n+1) {
+  background-color: #339933;
+}
