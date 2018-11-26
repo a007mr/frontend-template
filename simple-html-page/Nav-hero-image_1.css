@@ -1,0 +1,167 @@
+body {
+  background-color: #B8D3E5;
+  font-size: 14px;
+  font-family: "Atlas Grotesk", sans-serif;
+  margin-bottom: 100px;
+  background: url(https://images.unsplash.com/photo-1521711211532-6ef910543457?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9e0614337487a42aecdb6f669a290745&auto=format&fit=crop&w=1105&q=80) no-repeat 80% 50%;
+  background-size: cover;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #eeeeee;
+}
+
+/* Size and position of navigation including logo*/
+.menu-item,
+.logo {
+  float: left;
+  list-style: none;
+}
+
+.logo {
+  margin-left: 15px;
+  margin-top: -10px;   
+}
+
+.menu-item {
+  margin-left: 30px;
+  line-height: 70px;
+}
+
+.menu-item:first-of-type {
+  margin-left: 300px;
+}
+/* The end of navi size and position*/
+
+/* Styles for link on the navi*/
+.menu-item a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.menu-item a:hover {
+  color: #637282;
+}
+/*The end of styles of links*/
+
+.menu-item ul {
+  list-style: none;
+  margin: auto;
+  line-height: 35px;
+  left: -19%;
+  padding-bottom: 17px;
+  padding-top: 17px;
+}
+
+/*Dropdown menu - ISSUE: background-color + jump when hover */ 
+.dropdown-menu {
+  display: none;
+}
+
+li:hover > ul {
+  display: block;
+  width: 170px;
+  background-color: #ffffff;
+  position: relative;
+  border: 1px solid rgba(99,114,130,0.15);
+  border-radius: 4px;
+  box-shadow: 0 7px 15px 0 rgba(0,0,0,0.1);
+    }
+
+.menu-item ul a {
+  color: #637282;
+}
+
+.menu-item ul a:hover {
+  color: #000000;
+  background: #d2d4d6;
+}
+/* End of dropdown */
+
+/* Button on navi - ISSUE : how to make its position on the right?*/
+.button-supernav {
+  text-decoration: none;
+  color: #2895F1;
+  border: 1px solid #c1c7cd;
+  padding: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
+  line-height: 70px; 
+  margin: 15px;
+}
+
+.button-supernav:hover {
+  border: 1px solid #0070e0;
+}
+/* End of the navi button */
+
+/*Hero image - main part*/
+.hero {
+  display: block;
+  margin-left: 80px;
+  margin-top: 100px;
+}
+
+h1 {
+  width: 460px;
+  font-size: 45px;
+  color: #47525d;
+  font-weight: 100;
+}
+
+h2 {
+  width: 460px;
+  font-size: 20px;
+  color: #47525d;
+  font-weight: 100;
+  line-height: 1.4;
+  margin-bottom: 50px;
+}
+
+.button-hero {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 200;
+  border: 1px solid #c1c7cd;
+  background-color: #0071e0;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 8px;
+}
+
+.button-hero:hover {
+  background-color: #3398ea;
+}
+
+div > span {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+div > span a:hover {
+  color: #3398ea;
+}
+
+.supernav-menu .menu-item{
+  position: relative;
+}
+.supernav-menu .menu-item ul{
+  padding: 0;
+}
+.supernav-menu .menu-item .dropdown-menu{
+  position: absolute;
+  display: none;
+}
+.supernav-menu .menu-item:hover .dropdown-menu {  
+  display: block;
+}
+.supernav-menu .menu-item ul li a{
+  padding: 0 20px;
+  line-height: 40px;
+  display: block;
+}
