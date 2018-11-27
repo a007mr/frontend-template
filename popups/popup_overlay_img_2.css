@@ -1,0 +1,201 @@
+body {
+  background: #FBD840;
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+}
+
+/* Styles of trigger */
+.popup-trigger {
+  display: block;
+}
+
+h1 {
+  padding-top: 50px;
+  margin-bottom: 60px;
+}
+
+.trigger {
+  font-size: 16px;
+  text-decoration: none;
+  background: #ffffff;
+  border: 0px solid #000000;
+  padding: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+  color: #FBD840;
+  box-shadow: 1px 4px 15px 1px rgba(0,0,0,0.2);
+}
+
+.trigger:hover {
+  background-color: red;
+}
+/*The end of trigger styles*/
+
+
+/*OVERLAY*/
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+/*End of overlay*/
+
+/*=== Popup Styles ===*/
+section {
+  display: block;
+}
+
+.popup {
+  border: 0px solid #000000;
+  width: 700px;
+  height: 350px;
+  box-shadow: 1px 4px 15px 1px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background: #ffffff;
+  position: absolute; /*These styles make center align for x and y*/
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%); /*End of center align */
+}
+
+/*IMAGE Styles*/
+.image {
+  position: absolute;
+  top: auto;
+  margin-left: 80px;
+  margin-top: 60px;
+}
+/*End of IMAGE Styles*/
+
+/*== Styles of left part of popup ==*/
+.container {
+  width: 350px;
+  padding-left: 40px;
+  text-align: left;
+}
+
+h2 {
+  color: #37342A;
+  margin-top: 40px;
+}
+
+div > p {
+  color: #A8A399;
+  margin-bottom: 30px;
+}
+
+input {
+  border: 1px solid #E0E0E0;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 14px;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 15px; 
+}
+
+.email {
+  
+}
+
+input:hover {
+  border: 1px solid #FBD840;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #FBD840;
+  color: #A8A399;
+}
+
+/*Font Awesome + Input*/
+i.far {
+  width: 26px;
+  height: 26px;
+  line-height: 60px;
+  color: #A8A399;
+  font-size: 22px;
+  text-align: center;
+  margin-right: -26px;
+  position: relative;
+  z-index: 1;
+  float: left;
+}
+
+i.far + input {
+  padding-left: 30px;
+}
+/*End of Font Awesome + Input*/
+
+.popup-btn {
+  border: 0px solid #000;
+  text-decoration: none;
+  background: #FBD840;
+  padding: 12px;
+  padding-left: 60px;
+  padding-right: 60px;
+  color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0px 3px 15px 3px rgba(249,219,91,0.4);
+}
+
+.btn {
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.popup-btn:hover {
+  box-shadow: none;
+  background: #f9df72;
+}
+/*== End of Left part of popup ==*/
+
+/* X Close Button */
+.close {
+  position: absolute;
+  right: auto;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+.close:hover {
+  opacity: 1;
+}
+
+.close-btn::before, .close-btn::after {
+  position: absolute;
+  left: auto;
+  content: "";
+  height: 20px;
+  width: 2px;
+  background-color: #A8A399;
+  margin-left: 320px;
+  margin-top: 15px;
+}
+
+.close-btn::before {
+  transform: rotate(45deg);
+}
+
+.close-btn::after {
+  transform: rotate(-45deg);
+}
+/*End of X Close Button */
+
+/*=== The End of Popup styles === */
+
