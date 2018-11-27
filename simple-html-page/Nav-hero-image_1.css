@@ -19,6 +19,11 @@ body {
   float: left;
   list-style: none;
 }
+.supernav-menu {
+  width: 100%;
+  position: relative;
+}
+
 
 .logo {
   margin-left: 15px;
@@ -35,7 +40,7 @@ body {
 }
 /* The end of navi size and position*/
 
-/* Styles for link on the navi*/
+/* Styles for link on the nav*/
 .menu-item a {
   text-decoration: none;
   color: #000000;
@@ -50,7 +55,7 @@ body {
   list-style: none;
   margin: auto;
   line-height: 35px;
-  left: -19%;
+  left: -79%;
   padding-bottom: 17px;
   padding-top: 17px;
 }
@@ -62,7 +67,7 @@ body {
 
 li:hover > ul {
   display: block;
-  width: 170px;
+  width: 200px;
   background-color: #ffffff;
   position: relative;
   border: 1px solid rgba(99,114,130,0.15);
@@ -76,7 +81,7 @@ li:hover > ul {
 
 .menu-item ul a:hover {
   color: #000000;
-  background: #d2d4d6;
+  background: #eeeeee;
 }
 /* End of dropdown */
 
@@ -90,7 +95,7 @@ li:hover > ul {
   padding-right: 15px;
   border-radius: 4px;
   line-height: 70px; 
-  margin: 15px;
+  margin: 105px;
 }
 
 .button-supernav:hover {
@@ -126,12 +131,16 @@ h2 {
   color: #ffffff;
   font-size: 20px;
   font-weight: 200;
-  border: 1px solid #c1c7cd;
+  border: 0px solid #c1c7cd;
   background-color: #0071e0;
   padding: 15px;
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 8px;
+}
+
+.hero-button {
+  margin-bottom: 30px;
 }
 
 .button-hero:hover {
@@ -140,18 +149,20 @@ h2 {
 
 div > span {
   font-size: 16px;
-  margin-top: 20px;
 }
 
 div > span a:hover {
   color: #3398ea;
 }
 
+
+
 .supernav-menu .menu-item{
   position: relative;
 }
 .supernav-menu .menu-item ul{
   padding: 0;
+  
 }
 .supernav-menu .menu-item .dropdown-menu{
   position: absolute;
@@ -161,7 +172,7 @@ div > span a:hover {
   display: block;
 }
 .supernav-menu .menu-item ul li a{
-  padding: 0 20px;
+  padding: 0 35px;
   line-height: 40px;
   display: block;
 }
