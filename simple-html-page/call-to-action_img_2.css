@@ -1,0 +1,48 @@
+body {
+  font-family: Lato, sans-serif;
+  background: #3a8acb;
+  text-align: center;
+  background: url(https://sujanpatel.com/wp-content/themes/sujanpatel/img/new-consulting/bg-banner-consultation.jpg)
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 40px;
+  width: 600px;
+  font-weight: 900;
+  margin: auto;
+  padding-top: 80px;
+  margin-bottom: 30px;
+}
+
+p {
+  color: #c9dff7;
+  font-size: 22px;
+  font-weight: 300;
+  width: 850px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.cta-button {
+  border: 0px solid #000000;
+  border-radius: 40px;
+  padding: 20px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  padding-left: 90px;
+  padding-right: 90px;
+  background: #282839;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.button {
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.cta-button:hover {
+  background: #404055;
+}
