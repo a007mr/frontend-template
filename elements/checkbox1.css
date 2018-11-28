@@ -1,0 +1,16 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 200px;
+  margin-top: 50px;
+}
+
+input[type="checkbox"] {
+  display: block;
+}
+
+input[type="checkbox"]::before {
+  border: 1px solid #000000;
+}
+
+
+
