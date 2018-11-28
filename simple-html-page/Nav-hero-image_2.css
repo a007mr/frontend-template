@@ -14,11 +14,7 @@ header {
   float: left;
   list-style: none;
   font-size: 15px;
-  padding-top: 10px;
-}
-
-ul:first-child {
-  margin-left: 850px;
+  margin-top: -10px;
 }
 
 li a {
@@ -32,13 +28,13 @@ li a:hover {
 }
 
 .nav-btn-link {
-  margin-left: 30px;
   padding: 10px;
   padding-left: 30px;
   padding-right: 30px;
   text-decoration: none;
   background: red;
   color: white;
+  margin-right: 30px;
 }
 
 .nav-btn-link:hover {
@@ -46,8 +42,13 @@ li a:hover {
 }
 
 .logo {
-  margin-top: -35px;
   margin-left: 20px; 
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 /*Navigation End*/
 
@@ -97,9 +98,6 @@ h1 + p {
   float: right;
   margin-right: 100px;
   box-shadow: 0px 4px 15px 1px rgba(226,182,100,0.5);
-
 }
 
-,image_main {
-  w
-}
+
