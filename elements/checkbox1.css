@@ -1,16 +1,82 @@
 body {
   font-family: "Open Sans", sans-serif;
   margin: 200px;
-  margin-top: 50px;
+  margin-top: 30px;
+}
+
+fieldset {
+  border: 1px solid #1abc9c;
+  border-radius: 7px;
+  padding: 20px;
+  width: 30%;
+  margin: auto;
+}
+
+fieldset legend {
+  color: blue;
 }
 
 input[type="checkbox"] {
-  display: block;
+  display: none;
 }
 
-input[type="checkbox"]::before {
-  border: 1px solid #000000;
+.content {
+  display: inline-block;
+  width: 50%;
+  margin-right: -5px
 }
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+input[type="checkbox"] + label {
+  vertical-align: middle;
+  color: #000000;
+}
+
+/*styles for creating input - checkbox */
+input[type="checkbox"] + label::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  border: 1px solid #000000;
+  vertical-align: middle;
+  border-radius: 4px;
+  box-shadow: 0 0 0 2px #bdc3c7;
+  border-radius: 50%;
+}
+
+/*color of checked input */
+input:checked + label::before {
+  background: blue;
+  box-shadow: 0 0 0 3px #1abc9c;
+}
+
+/*color of checked label */
+input:checked + label { 
+  color: #1abc9c;
+} 
+
+/*color of disabled input */
+input:disabled + label::before {
+  box-shadow: 0 0 0 3px #ecf0f1;
+  background: #eeeeee;
+}
+
+/*color of disabled label */
+input:disabled + label { 
+  color: #eeeeee;
+} 
+
+
+
+
+
 
 
 
