@@ -1,0 +1,58 @@
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 520px;
+  min-height: 270px;
+  padding: 20px;
+
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "Arial", sans-serif;
+  color: white;
+
+  background-color: #3a78a1;
+  background-image: url("grid.png");
+  background-repeat: repeat;
+  background-position: -80px -80px;
+}
+
+.column {
+  margin: 0px 10px 10px 0px;
+  padding: 10px;
+  
+  box-sizing:border-box;
+  width:100px;
+
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid white;
+  display:inline-block;
+  vertical-align: top;
+}
+
+.table {
+ display: table; 
+ border: 1px solid white;
+}
+
+.row {
+  display: table-row;
+}
+
+.cell {
+  padding: 5px 10px;
+
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 1px solid white;
+  display: table-cell;
+  width: 118px;
+  box-sizing:border-box;
+}
+
+.col-3 {
+ display: none; 
+}
