@@ -1,0 +1,20 @@
+.palette {
+    display: flex;
+    justify-content: space-between;
+}
+
+.color-2 {
+  align-self: flex-end;   
+}
+
+.color-6 {
+  align-self: center;   
+}
+
+.color-4 {
+    align-self: flex-start; 
+}
+
+.palette {
+    flex-direction: column-reverse;   
+}
