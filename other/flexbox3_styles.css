@@ -39,6 +39,9 @@
 }
 
 /*===== 3 BOARD ======*/
+.palette-box:nth-child(3) .palette-small {
+justify-content: space-between;
+}
 
 .palette-box:nth-child(3) .palette-small .part {
     display: flex;
@@ -48,16 +51,22 @@
 }
 
 /*===== 4 BOARD ======*/
+.palette-box:nth-child(4) .palette-small {
+    justify-content: space-between;
+}
 
-
-.palette-box:nth-child(4) .palette-small .part {
+.palette-box:nth-child(4) .palette-small .part:first-child {
     display: flex;
 }
 
 .palette-box:nth-child(4) .palette-small .part:last-child {
+    display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
 }
+
+
+
 
 
 
