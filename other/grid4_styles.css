@@ -1,0 +1,46 @@
+.land {
+  display: grid;
+  width: 540px;
+  grid-gap: 20px;
+  grid-template-columns: 120px 120px 120px 120px;
+  grid-template-rows: 120px 120px 120px;
+}
+
+.element--1 {
+  grid-row: 1 / 2;
+  grid-column: 1 / 3;
+
+}
+
+.element--2 {
+  grid-row: 2 / 4;
+  grid-column: 3 / 4;
+
+}
+
+.element--3 {
+  grid-row: 1 / 3;
+
+}
+
+.element--4 {
+  grid-row: 2 / 4;
+  grid-column: 1 / 2;
+
+}
+
+.element--5 {
+  grid-row: 1 / 2;
+  grid-column: 3 / 4; 
+}
+
+.element--6 {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+}
+
+.element--7 {
+ grid-column: 2 / 3;
+ grid-row: 3 / 4;
+ 
+}
