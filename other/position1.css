@@ -1,0 +1,120 @@
+html {
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+.scene {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  background: none;
+  box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+div {
+  display: inline-block;
+  background-color: white;
+}
+
+
+/* горизонтальные элементы */
+.h {
+  width: 50px;
+  height: 10px;
+  position: absolute;
+}
+
+.h3 {
+  width: 40px;
+}
+
+/* вертикальные элементы */
+.v {
+  width: 10px;
+  height: 50px;
+  position: absolute;
+}
+
+/* уголки */
+.corner-top {
+  background: none;
+  position: absolute;
+  border: 15px solid white;
+  border-top-width: 20px;
+  border-top-color: transparent;
+  border-bottom-width: 0;
+   bottom: 70px;
+ right: 80px;
+}
+
+.corner-bottom {
+  background: none;
+  position: absolute;
+  border: 15px solid transparent;
+  border-top-width: 20px;
+  border-top-color: white;
+  border-bottom-width: 0;
+  bottom: 50px;
+  right: 80px;
+}
+
+/* лого */
+.logo {
+  width: 64px;
+  height: 64px;
+  background-image: url("logo.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  position: absolute;
+  top: 80px;
+  left: 87px;
+}
+
+.v1 {
+ bottom: 40px;
+ left: 20px;
+}
+
+.h1 {
+ bottom: 60px;
+ left: 20px;
+}
+
+.v2 {
+ bottom: 40px;
+ left: 60px;
+}
+
+.v3 {
+ bottom: 40px;
+ left: 100px;
+}
+
+.h2 {
+ bottom: 80px;
+ left: 80px;
+}
+
+.v4 {
+ bottom: 40px;
+ right: 110px;
+}
+
+.v5 {
+ bottom: 40px;
+ right: 70px;
+}
+
+.v6 {
+ bottom: 40px;
+ right: 50px;
+}
+
+.h3 {
+ bottom: 40px;
+ right: 20px;
+}
