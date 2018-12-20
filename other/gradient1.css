@@ -1,0 +1,15 @@
+.messages {
+  background-image: linear-gradient(to bottom, #86ff65, #06d315);
+}
+
+.weather {
+  background-image: linear-gradient(to right, #1f76ed, #70edfe);
+}
+
+.camera {
+  background-image: linear-gradient(to bottom, #f7f7f7, #898b91);
+}
+
+.itunes {
+  background-image: linear-gradient(to right, #fb5bc4, #a645fe);
+}
