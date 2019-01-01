@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1381px" height="461px" viewBox="0 0 1381 461" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>bg_cta</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="88.5137092%" y1="63.8438842%" x2="-7.49128535%" y2="11.0763642%" id="linearGradient-1">
+            <stop stop-color="#CC11BF" offset="0%"></stop>
+            <stop stop-color="#0013B7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-30.000000, -3283.000000)" fill="url(#linearGradient-1)">
+            <g id="5-part-(CTA)-" transform="translate(30.000000, 3283.000000)">
+                <path d="M71.3479083,0.0337652129 L1323.83992,72.3614475 C1333.36784,72.9116564 1341.1795,80.1172158 1342.49577,89.5698008 L1380.12532,359.800187 C1381.64874,370.740323 1374.01497,380.844027 1363.07484,382.367439 C1362.54608,382.441069 1362.01458,382.493498 1361.48162,382.5246 L21.1651691,460.742215 C10.1382348,461.38572 0.677474445,452.968287 0.0339693295,441.941353 C-0.034829,440.762443 0.000921969022,439.579756 0.140803212,438.407154 L50.335692,17.6314713 C51.5879428,7.13405408 60.7936467,-0.57571195 71.3479083,0.0337652129 Z" id="bg_cta"></path>
+            </g>
+        </g>
+    </g>
+</svg>
