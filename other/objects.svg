@@ -1,0 +1,8 @@
+<svg width="540" height="290">
+  <rect width="100%" height="65%" fill="skyblue" />
+  <rect width="100%" height="35%" y="65%" fill="yellow" />
+  <polygon points="240,70 90,250 390,250" fill="goldenrod"/>
+
+  <polygon points="350,140 250,270 450,270" fill="darkgoldenrod"/>
+  
+</svg>
