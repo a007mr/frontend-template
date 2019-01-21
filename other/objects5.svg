@@ -1,0 +1,11 @@
+<svg width="360" height="500">
+  <rect width="320" height="460" x="20" y="20" rx="20" ry="20" fill="lemonchiffon" />
+  <circle r="100" cx="140" cy="170" fill="crimson"/>
+  <polygon points="140,270 130,280 150,280" fill="crimson" />
+  <polyline points="145,280 150,300 150,300 135,330 135,330 150,360 150,360 135,390 135,390 150,420" stroke="crimson" fill="none" />
+  
+  <ellipse rx="60" ry="80" cx="250" cy="210" fill="gold"  />
+  <polygon points="250,290 240,300 260,300" fill="gold" />
+  <polyline points="255,300 260,320 260,320 245,350 245,350 260,380 260,380 245,410 245,410 260,440" stroke="crimson" fill="none" />
+  
+</svg>
