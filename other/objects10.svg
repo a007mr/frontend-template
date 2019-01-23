@@ -1,0 +1,13 @@
+<svg width="300" height="290">
+
+  <rect fill="khaki" stroke="darkkhaki" width="10" height="70" x="145" y="220"></rect>
+
+  <circle stroke="darkkhaki" r="100" cx="150" cy="125"fill="gold"></circle>
+
+  <circle r="70" cx="150" cy="125" fill="none" stroke-width="20" stroke="tomato" ></circle>
+
+  <circle r="70" cx="150" cy="125" fill="none" stroke-width="20" stroke="darkorange" stroke-dasharray="45" stroke-dashoffset="45"></circle>
+
+  <circle r="50" cx="150" cy="125" fill="none" stroke-width="20" stroke="yellowgreen"></circle>
+
+</svg>
