@@ -1,0 +1,30 @@
+body {
+width: 550px;
+height: 310px;
+margin: 0;
+padding: 0;
+}
+
+.part-green {
+transform: translate(15px) rotate(90deg);
+}
+
+.part-maroon {
+transform: translate(0, -125px) rotate(180deg);
+}
+
+.part-orange {
+transform: translate(105px, 160px) scale(2) rotate(-90deg);
+}
+
+.part-red {
+transform: translate(175px, -100px) skew(-45deg);
+}
+
+.part-yellow {
+transform: translate(40px) rotate(90deg);
+}
+
+.part-blue {
+transform: translate(-120px, -80px) skew(-45deg);
+}
