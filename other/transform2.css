@@ -1,0 +1,52 @@
+.piece {
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
+  width: 10px;
+  height: 10px;
+}
+.piece-1 {
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  transform: rotate(45deg) skewX(45deg);
+}
+.piece-2 {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+}
+.piece-3 {
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  transform: rotate(45deg);
+}
+.piece-4 {
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 50px;
+  height: 100px;
+}
