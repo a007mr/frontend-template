@@ -1,0 +1,25 @@
+.alert-primary {
+  color: #4b00cd;
+  background-color: #e0ceff;
+  border-color: #c3b4ff;
+}
+.alert-error {
+  color: #cd0083;
+  background-color: #ffceed;
+  border-color: #ffb4f0;
+}
+.alert-info {
+  color: #0083cd;
+  background-color: #ceedff;
+  border-color: #b4f0ff;
+}
+.alert-warning {
+  color: #cd4b00;
+  background-color: #ffe0ce;
+  border-color: #ffc3b4;
+}
+.alert-success {
+  color: #00cd4b;
+  background-color: #ceffe0;
+  border-color: #b4ffc3;
+}
