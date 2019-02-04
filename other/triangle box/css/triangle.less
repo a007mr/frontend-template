@@ -1,0 +1,47 @@
+.triangle(@_; @size; @color) {
+    width: 0;
+    height: 0;
+    border-width: @size;
+    border-style: solid;
+    border-color: @color;
+}
+
+.triangle(top; @size; @color) {
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-style: none;
+}
+
+.triangle(right; @size; @color) {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-style: none;
+}
+
+.triangle(bottom; @size; @color) {
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-bottom-style: none;
+}
+
+.triangle(left; @size; @color) {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-style: none;
+}
+
+.triangle-box-top {
+    .triangle(top; 50px; #ff4136);
+}
+
+.triangle-box-right {
+    .triangle(right; 50px; #0074d9);
+}
+
+.triangle-box-bottom {
+    .triangle(bottom; 50px; #2ecc40);
+}
+
+.triangle-box-left {
+    .triangle(left; 50px; #b10dc9);
+}
